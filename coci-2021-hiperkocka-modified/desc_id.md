@@ -1,6 +1,6 @@
 ### Deskripsi
 
-Opang sedang terjabak dalam suatu Kotak Ajaib. Kotak ini merupakan kotak berdimensi - $n$, sebut saja Kotak Ajaib ini sebagain $Q_n$. Terdapat juga $2^{n - 1}$ tree yang identik di dekat opang dan masing-masing tree memiliki $n$ edges dan juga $n$ + 1 node yang dinomori 0, 1, ..., $n$. Supaya dapat keluar dari kotak ajaib tersebut, Opang harus meletakkan $n$ tree tersebut pada setiap titik sudut dari kotak ajaib tersebut. 
+Opang sedang terjabak dalam suatu Kotak Ajaib. Kotak ini merupakan kotak berdimensi - $n$, sebut saja Kotak Ajaib ini sebagai $Q_n$. Terdapat juga $2^{n - 1}$ tree yang identik di dekat opang dan masing-masing tree memiliki $n$ edges dan juga $n$ + 1 node yang dinomori 0, 1, ..., $n$. Supaya dapat keluar dari kotak ajaib tersebut, Opang harus meletakkan $n$ tree tersebut pada setiap titik sudut dari kotak ajaib tersebut. 
 
 Secara formal, suatu Kotak Ajaib $Q_n$ dapat kita representasikan sebagai suatu graph dimana tiap node pada graph tersebut mewakili suatu titik sudut pada Kotak Ajaib tersebut dan nodenya dinomori 0, 1, 2, ...., $2^{n}$ - 1.  Dua node akan terhubung jika dan hanya jika bitwise $xor$ dari nomor mereka merupakan bilangan dua pangkat.
 
