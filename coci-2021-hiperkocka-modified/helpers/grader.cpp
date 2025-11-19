@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 	}
 	if (k == 1 << (n - 1))
 		quitf(_ok, "ok");
-	double score = 70.0 * (double)k / (1 << (n - 1));
+	double score = 70.0 * k / (1 << (n - 1));
 	quitp(score, "ok");
 	return 0;
 }
